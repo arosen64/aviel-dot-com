@@ -19,8 +19,8 @@ export const experience = [
     dates: 'May 2026 – Aug 2026',
     role: 'Quantitative Researcher, QES',
     bullets: [
-      "Leading the transition of the team's macroeconomic nowcasting indices from EViews to R, re-implementing the models in a modern, maintainable stack and optimizing the pipeline's efficiency and reproducibility.",
-      'Migrating a large portion of the program\'s workloads onto the cloud, and studying proprietary internal white papers authored by team lead Yin Luo to reconstruct the underlying methodology.',
+      "Lead the transition of the team's macroeconomic nowcasting indices from EViews to R, re-implementing the models in a modern, maintainable stack and optimizing the pipeline's efficiency and reproducibility.",
+      'Migration involved moving a large portion of the program\'s workloads onto the cloud, and studying proprietary internal white papers authored by team lead Yin Luo.',
     ],
   },
   {
