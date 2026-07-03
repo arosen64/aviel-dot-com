@@ -1,0 +1,11 @@
+.section {
+  padding: 32px 0;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: oklch(0.55 0.01 90);
+  margin-bottom: 24px;
+}

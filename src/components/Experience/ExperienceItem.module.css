@@ -1,0 +1,35 @@
+.item {
+  padding: 22px 0;
+  border-top: 1px solid oklch(0.9 0.002 90);
+}
+
+.dates {
+  font-size: 12.5px;
+  color: oklch(0.55 0.005 90);
+  margin-bottom: 6px;
+}
+
+.role {
+  font-size: 17px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 2px;
+}
+
+.company {
+  font-size: 14.5px;
+  color: oklch(0.45 0.005 90);
+  margin-bottom: 10px;
+}
+
+.bullets {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: oklch(0.35 0.005 90);
+  margin: 0;
+  padding-left: 18px;
+}
+
+.bullets li + li {
+  margin-top: 6px;
+}

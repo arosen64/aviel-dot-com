@@ -1,0 +1,59 @@
+.header {
+  padding: 64px 0 48px;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background: oklch(0.93 0.002 90);
+  margin-bottom: 24px;
+  object-fit: cover;
+  display: block;
+}
+
+.name {
+  font-size: 26px;
+  margin: 0 0 4px;
+  font-weight: 600;
+  color: #111;
+}
+
+.location {
+  font-size: 15px;
+  color: oklch(0.5 0.005 90);
+  margin-bottom: 18px;
+}
+
+.bio {
+  font-size: 15px;
+  line-height: 1.7;
+  color: oklch(0.35 0.005 90);
+  margin: 0 0 20px;
+  max-width: 560px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 13px;
+  color: oklch(0.4 0.005 90);
+  margin-bottom: 14px;
+}
+
+.contactItem {
+  user-select: text;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  color: oklch(0.4 0.005 90);
+}
+
+.link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: oklch(0.96 0.002 90);
+  font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background: oklch(0.55 0.11 245 / 0.25);
+}
