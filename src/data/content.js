@@ -21,7 +21,6 @@ export const experience = [
     bullets: [
       "Leading the transition of the team's macroeconomic nowcasting indices from EViews to R, re-implementing the models in a modern, maintainable stack and optimizing the pipeline's efficiency and reproducibility.",
       'Migrating a large portion of the program\'s workloads onto the cloud, and studying proprietary internal white papers authored by team lead Yin Luo to reconstruct the underlying methodology.',
-      'Implemented Principal Component Analysis and a state-space Kalman filter to construct the nowcasting indices from that methodology.',
     ],
   },
   {
@@ -29,8 +28,7 @@ export const experience = [
     dates: 'Oct 2025 – Feb 2026',
     role: 'Agent Development Intern',
     bullets: [
-      'Designed and implemented an autonomous multi-agent document analysis system in Python using the Agno framework, supporting complex document lifecycle management and strategic analysis.',
-      'Engineered a hierarchical supervisor-worker architecture in which a central LLM agent orchestrates workflows and delegates deep reasoning to specialized sub-agents under a strict, secure delegation protocol.'
+      'Designed and implemented an autonomous multi-agent document analysis system in Python using the Agno framework, supporting complex document lifecycle management and strategic analysis.'
     ],
   },
   {
