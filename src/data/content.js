@@ -72,7 +72,7 @@ export const featuredProjects = [
 export const otherProjects = [
   {
     title: 'Order Book Matching Engine',
-    tagline: 'C++17, market microstructure (2025)',
+    tagline: 'C++17, market microstructure (Jun 2025)',
     description:
       'A trading core built in C++17 and the STL, supporting limit and market orders, automatic FIFO matching, partial fills, and order cancellation. I used maps, lists, and hash tables to keep best-price retrieval, FIFO matching, and order removal fast, and validated correctness with a comprehensive test suite covering full and partial fills, price-level exhaustion, and cancellation edge cases.',
     link: "https://github.com/arosen64/Order-Book"
