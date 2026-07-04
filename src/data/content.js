@@ -6,7 +6,6 @@ export const profile = {
   location: 'Baltimore, Maryland',
   bio: "I'm a CS, math, and financial econ student at Johns Hopkins University, with experience across AI agent systems, quantitative research, and software engineering.",
   email: 'avielrosen13@gmail.com',
-  phone: '914-274-1619',
   links: [
     { label: 'GitHub', href: 'https://github.com/arosen64' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/aviel-rosen-8225662b8' },
