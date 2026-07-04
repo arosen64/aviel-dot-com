@@ -88,7 +88,7 @@ export const otherProjects = [
     title: 'Potlock',
     tagline: 'MorganHacks 2026, Winner, Best Use of Solana',
     description:
-      'A Solana-based group treasury where money only moves when the group agrees, with governing rules defined in a formal contract before any funds can flow. Groups write their contract in plain English, which Gemini formalizes into a structured schema, then invite members by wallet address. Any member can propose a transaction, which is validated against the contract and reported to all members before a group-defined approval process (k-of-n, role-based, unanimous, or tiered) runs on-chain, executing funds immediately once the threshold is met. Built with Solana and Anchor for the on-chain treasury program, Convex for off-chain contract and transaction data, and React with a Phantom wallet integration on the frontend. The project won Best Use of Solana at MorganHacks 2026.',
+      'A Solana-based group treasury where money only moves when the group agrees, with governing rules defined in a formal contract before any funds can flow. Groups write their contract in plain English, which Gemini formalizes into a structured schema, then invite members by wallet address. Any member can propose a transaction, which is validated against the contract and reported to all members before a group-defined approval process. Built with Solana and Anchor for the on-chain treasury program, Convex for off-chain contract and transaction data, and React with a Phantom wallet integration on the frontend. The project won Best Use of Solana at MorganHacks 2026.',
     link: 'https://devpost.com/software/potlock',
   },
 ];
