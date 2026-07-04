@@ -12,7 +12,7 @@ export default function Header({ profile }) {
         <a href={`mailto:${profile.email}`} className={styles.contactItem}>
           {profile.email}
         </a>
-        <span className={styles.contactItem}>{profile.phone}</span>
+        {profile.phone && <span className={styles.contactItem}>{profile.phone}</span>}
       </div>
       <div className={styles.links}>
         {profile.links.map((link) => (
