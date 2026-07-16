@@ -64,7 +64,7 @@ export const featuredProjects = [
     tagline: 'AI-powered study scheduler, JHU Whiting School of Engineering (Jan–May 2026)',
     description:
       "Timemaxx is a full-stack study planner built with a team of six that turns static due dates into an actionable, personalized schedule. It reads a student's syllabi, transcripts, and course list, estimates how long each assignment will actually take, and places study blocks directly onto their calendar at their most productive hours. I built the app end to end in React, TypeScript, and Convex, deployed via GitHub Actions to GitHub Pages. I integrated Google Gemini to estimate task completion time from parsed syllabi and transcripts, storing the model's reasoning traces alongside each estimate for auditability, and engineered the scheduling engine itself, which batches slot selection into a single Gemini call, writes study blocks to Convex, and auto-resolves Google Calendar conflicts. I also implemented Google Calendar OAuth, syllabus PDF parsing, and MAXX, a Mastra-based, RAG-backed chat assistant that lets students create tasks and log feedback in natural language from the dashboard. Under the hood, a retrieval-augmented pipeline retrieves each student's most similar past tasks and courses before Claude Sonnet 4 produces a time estimate, and a feedback loop of rated estimates versus actual time personalizes future predictions.",
-    link: "https://engineering.jhu.edu/designcenter/design-gallery/entry/45861/",
+    link: "https://github.com/tranade/Timemaxx",
   },
 ];
 
