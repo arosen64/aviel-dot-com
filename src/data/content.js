@@ -85,6 +85,13 @@ export const otherProjects = [
     link: "https://devpost.com/software/accessinvest"
   },
   {
+    title: 'Mario Input Autoencoder',
+    tagline: 'PyTorch, information theory (Jun–Jul 2026)',
+    description:
+      "Shannon's source coding theorem bounds every encoder, learned ones included, which makes it testable: give an autoencoder exactly H bits and no more, and a good code should take on the statistical fingerprint of an optimal one. I parsed Super Mario 64 speedrun input into ~500k controller events carrying 2.4683 bits each, then fixed the latent code at 247 bits — the floor for a 100-event window, with no slack. The annealed model reconstructs 98.2% of events at the bound, and its bits behave like fair, independent coin flips (0.9915 mean per-bit entropy, no correlated pairs) despite nothing in the loss asking for that. A lookup-table control collapses to 29.2% on unseen windows, ruling out memorization. With no headroom at the bound, exact whole-window recovery stays rare — this is a strong lossy compressor, not a bijection.",
+    link: 'https://github.com/arosen64/mario_autoencoder',
+  },
+  {
     title: 'Potlock',
     tagline: 'MorganHacks 2026, Winner, Best Use of Solana',
     description:
